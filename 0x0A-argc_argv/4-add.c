@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
 	while (x < argc)
 	{
-		if (*argv[x] == NULL)
+		if (*argv[x] != '0')
 		{
 			printf("Error\n");
 			return (1);
