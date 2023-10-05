@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -5,7 +6,7 @@
  * main - entry point
  * @argc : arg count
  * @argv : arg list
- * Return: 0
+ * Return: 0  if successor 1 if faild
  */
 int main(int argc, char *argv[])
 {
@@ -14,7 +15,7 @@ int main(int argc, char *argv[])
 
 	while (x < argc)
 	{
-		if (*argv[x] < '0' || *argv[x] > '0')
+		if (*argv[x] == '0' || *argv[x] == '\0')
 		{
 			printf("Error\n");
 			return (1);
