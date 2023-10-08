@@ -15,7 +15,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (nmemb == 0 || size == 0)
 		return (0);
 	call = malloc(nmemb * size);
-	if (call == NULL)
+	if (!call)
 		return (0);
 	for (x = 0; x < (nmemb * size); x++)
 		call[x] = 0;
