@@ -8,8 +8,8 @@
 /**
  * struct dog - a new type
  * @name: 1st type of struct dog
- * age: 2nd type of struct dog
- * owner: 3d type of struct dog
+ * @age: 2nd type of struct dog
+ * @owner: 3d type of struct dog
  */
 struct dog
 {

@@ -5,7 +5,7 @@
  * @name: 1st element
  * @age: 2nd element
  * @owner: 3rd element
- * Returb: NULL
+ * Return: NULL
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -15,8 +15,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (!new_d)
 	return (NULL);
 
-	new_d->name = (char *)malloc(strlen(name) + 1 );
-	new_d->owner = (char *)malloc(strlen(owner) + 1 );
+	new_d->name = (char *)malloc(strlen(name) + 1);
+	new_d->owner = (char *)malloc(strlen(owner) + 1);
 
 	if (!new_d->name || !new_d->owner)
 	{

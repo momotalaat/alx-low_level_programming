@@ -2,6 +2,7 @@
 
 /**
  * free_dog - a function that frees dogs.
+ * @d: anew type of struct free_dog
  * Return: void
  */
 

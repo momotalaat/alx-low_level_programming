@@ -2,7 +2,7 @@
 
 /**
  * print_dog - a function that prints a struct dog
- * @d:
+ * @d: new struct of print_dog functin
  * Return: If an element of d is NULL
  *		print (nil) instead of this element
  *		(if name is NULL, print Name: (nil))
