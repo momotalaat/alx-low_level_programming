@@ -1,13 +1,11 @@
 #include "lists.h"
 
 /**
- * add_nodeint - add a new node at the beginning of a listint_t
- *
- * @head: pointer to the first node
- *
- *
- * @n: the new node
- * Return: new node address (success), or NULL (failed)
+ * add_nodeint - afunc to add a new node at the beginning of a listint_t
+ * @head: pointer to node
+ * @n: new node
+ * Return: new node address (success)
+ *		NULL (failed)
 */
 
 listint_t *add_nodeint(listint_t **head, const int n)
@@ -20,6 +18,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 		{
 			return (NULL);
 		}
+
 	ptr->n = n;
 	ptr->next = *head;
 	*head = ptr;

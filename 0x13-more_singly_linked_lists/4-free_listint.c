@@ -1,9 +1,11 @@
 #include "lists.h"
 
+
 /**
- * free_listint - a function that frees a listint_t list.
- * @head: node
+ * free_listint - a func that frees a listint_t list
+ * @head: a node
  */
+
 
 void free_listint(listint_t *head)
 {
@@ -16,3 +18,4 @@ void free_listint(listint_t *head)
 		head = ptr;
 	}
 }
+
